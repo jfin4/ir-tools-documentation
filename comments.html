@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>identify-unassigned-benchmarks</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="identifying-benchmarks-for-thresholdless-pollutants">Identifying
+Benchmarks for Thresholdless Pollutants</h1>
+<p><a href="mailto:john.inman@waterboards.ca.gov">John Inman</a></p>
+<p>June 16, 2023 (Updated November 7, 2023)</p>
+<p>State Water Resources Control Board (Water Board) Integrated Report
+staff (staff) apply water quality standards to water quality data to
+assess attainment of designated beneficial uses of the state’s
+waterbodies. Staff use numeric thresholds to evaluate whether water
+quality standards are met. These thresholds are established by a variety
+organizations and programs, including the United States Environmental
+Protection Agency’s (USEPA) Aquatic Life Benchmarks and Ecological Risk
+Assessments for Registered Pesticides (benchmarks). Staff have identifed
+thresholds for most of the pollutants for which water quality data has
+been collected and regularly review threshold sources for new thresholds
+to apply to the remaining few without identified thresholds.</p>
+<p>This script automates the review of the benchmarks for previously
+unidentified thresholds that can be applied to pollutants in the CEDEN
+dataset. This script comprises three sections. The first section loads
+the relevant data and prepares it for analysis. The second section
+searches the thresholdless pollutants for matches to a benchmark using
+CAS numbers. The third and final section searches the remaining
+thresholdless pollutants for <em>possible</em> matches to a benchmark
+using chemical name synonyms.</p>
+<h2 id="section-1-loading-and-transforming-data">Section 1: Loading and
+Transforming Data</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<ol type="1">
+<li><p>Load the benchmarks. If necessary, download the <a
+href="https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/aquatic-life-benchmarks-and-ecological-risk">benchmarks
+from USEPA</a>.</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>benchmarks <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;./input/benchmarks.csv&quot;</span>, </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                      <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">.default =</span> <span class="st">&quot;c&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>              <span class="fu">rename</span>(<span class="at">benchmark_name =</span> Pesticide) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>              <span class="fu">rename</span>(<span class="at">cas_number =</span> <span class="st">&quot;CAS number&quot;</span>)</span></code></pre></div></li>
+<li><p>Load the thresholdless pollutants list. If necessary, and if you
+are Jacob, create a list of thresholdless pollutants in CalWQA using an
+SQL query. Otherwise, ask Jacob to create this list. Jacob used the
+following SQL query to create the list of thresholdless pollutants for
+this analysis:</p>
+<pre><code>WITH CTE AS
+  (SELECT a.analyte_name,
+          CASE
+              WHEN b.summing_name IS NULL THEN a.analyte_name
+              ELSE b.summing_name
+          END AS Objective_Name,
+          listagg(DISTINCT (a.data_source_type),&#39;,&#39;) Data_Source,
+          listagg(DISTINCT (a.matrix_name),&#39;,&#39;) Matrix,
+          count(*) AS Number_Of_Rows
+   FROM calwqa2.ir_combine_data_summary a
+   LEFT JOIN calwqa2.IR_RELEP_SUMMING_POLLUTANTS b ON a.analyte_Name=b.Analyte_Name
+   WHERE a.data_filter_Type =&#39;Query&#39;
+     AND a.data_Source_type!=&#39;Habitat&#39;
+     AND a.data_source_type!=&#39;Toxicity&#39;
+   GROUP BY a.Analyte_Name,
+            b.summing_Name)
+SELECT c.Analyte_Name,
+       c.Objective_Name,
+       c.Data_Source,
+       c.Matrix,
+       c.number_of_rows
+FROM cte c
+LEFT JOIN Calwqa2.IR_RELEP_Analytes d ON c.Objective_Name=d.Analyte_Name
+WHERE d.IR_RELEP_Analyte_ID IS NULL
+  AND c.objective_Name not in (&#39;Aroclor&#39;,
+                               &#39;Coliform, Total&#39;,
+                               &#39;Enterococcus&#39;,
+                               &#39;Coliform, Fecal&#39;,
+                               &#39;E. coli&#39;,
+                               &#39;ElectricalConductivity&#39;) --AND  contains(c.objective_name, &#39;PBDE&#39;)&gt;0
+ORDER BY NUMBER_OF_ROWS DESC</code></pre>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>ceden_thresholdless <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;./input/ceden-thresholdless.csv&quot;</span>, </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>                                <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">.default =</span> <span class="st">&quot;c&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rename</span>(<span class="at">ceden_name =</span> ANALYTE_NAME) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(ceden_name) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">distinct</span>() <span class="co"># &quot;Hydroxycarbofuran, 3-&quot; is duplicated</span></span></code></pre></div></li>
+<li><p>Load a complete list of CEDEN pollutants with associated CAS
+numbers. Download a <a
+href="https://ceden.waterboards.ca.gov/AdvancedQueryTool">complete list
+of pollutants from CEDEN</a>.<br />
+The list of thresholdless pollutants created by the SQL query above is
+stripped down to just pollutant names and lacks associated CAS numbers,
+which we want to use to match to benchmarks. We will regain this
+information by joining the CAS number from the complete list to the
+thresholdless list later. The complete list will also be used later when
+we search for updated benchmarks. Note that a complete list of
+pollutants with CAS numbers may be more correctly sourced from CalWQA
+but I did not know how to do that at the time I wrote this script.</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>ceden_all <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;./input/ceden.csv&quot;</span>, </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>                      <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">.default =</span> <span class="st">&quot;c&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rename</span>(<span class="at">ceden_name =</span> AnalyteName) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">rename</span>(<span class="at">cas_number =</span> <span class="st">&quot;CASNumber&quot;</span>)</span></code></pre></div></li>
+<li><p>Load a complete list of CEDEN pollutant synonyms. If necessary,
+create a list of pollutant synonyms using the PubChem Identifier
+Exchange Service. PubChem is an online database of chemical names and
+attributes maintained by the National Institutes of Health (NIH). The
+Identifier Exchange Service translates between various chemical
+identifiers. We are using it to create lists of synonyms that will be
+used to search for <em>potential</em> matches between pollutants and
+benchmarks in section 3. Here are the steps to create a list of
+pollutant synonyms:</p>
+<ol type="1">
+<li><p>Create a simple list of pollutant names with one pollutant per
+line to use as identifier exchange service input. We use the complete
+list of pollutants (rather than the thresholdless list) because the
+resulting list will be used in another script to identify pollutants
+with existing thresholds that need to be updated.</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ceden_names <span class="ot">&lt;-</span> ceden_all <span class="sc">%&gt;%</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ceden_name) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write_csv</span>(<span class="st">&quot;./input/ceden-names.csv&quot;</span>)</span></code></pre></div></li>
+<li><p>Go to the <a
+href="https://pubchem.ncbi.nlm.nih.gov/idexchange/idexchange.cgi">PubChem
+Identifier Exchange Service</a>.</p></li>
+<li><p>Under <strong>Input ID List</strong> select <code>Synonyms</code>
+from the Input ID List dropdown menu, click <code>Browse,</code> and
+navigate to the file you created in step 1.</p></li>
+<li><p>Under <strong>Operator Type</strong> select
+<code>Same CID.</code> This will search for synonyms that PubChem
+considers identical to the pollutant. Future staff may consider
+exploring other options to match isomers, congeners, and
+metabolites.</p></li>
+<li><p>Under <strong>Output IDs</strong> select
+<code>Synonyms.</code></p></li>
+<li><p>Under <strong>Output Method</strong> select
+<code>Two column file showing each    input-output correspondence.</code></p></li>
+<li><p>Under <strong>Compression</strong> select whatever file format
+you are able to extract (zip is not an option though you can download
+and install 7zip to extract the available options) or
+<code>No compression.</code></p></li>
+<li><p>Click <code>Submit job</code> and download the resulting
+list.</p></li>
+</ol>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>ceden_synonyms <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;./input/ceden-synonyms.csv&quot;</span>, </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>                           <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">.default =</span> <span class="st">&quot;c&quot;</span>))</span></code></pre></div></li>
+<li><p>Add CEDEN pollutant names themeselves to the synonyms list. The
+synonyms list loaded above has pollutant names in the first column
+repeating for each corresponding synonym in the second column. We want
+to add the pollutant names themselves to the second column to cover
+cases where pollutant names match benchmark names directly and not via a
+shared synonym. Alternatively, we could add an additional section that
+searches benchmarks names for exact matches to pollutant names to
+accomplish the same thing with more code.</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>ceden_identities <span class="ot">&lt;-</span> ceden_synonyms <span class="sc">%&gt;%</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pubchem_synonym =</span> ceden_name) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>()</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>ceden_synonyms <span class="ot">&lt;-</span> ceden_synonyms <span class="sc">%&gt;%</span>  </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bind_rows</span>(ceden_identities) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span> <span class="fu">is.na</span>(pubchem_synonym)) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>() </span></code></pre></div></li>
+<li><p>Load a list of benchmark synonyms. If necessary, create a list of
+benchark synonyms using the same procedure outline above for pollutant
+synonyms, including creating a simple list of benchmark names to use as
+PubChem Identifier Exchange Service input.</p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>benchmarks_synonyms <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;./input/benchmarks-synonyms.csv&quot;</span>, <span class="at">col_types =</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cols</span>(<span class="at">.default =</span> <span class="st">&quot;c&quot;</span>))</span></code></pre></div></li>
+<li><p>Add benchmark names themeselves to the synonyms list for the same
+reason we added pollutant names themselves to their respective synonyms
+list.</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>benchmarks_identity <span class="ot">&lt;-</span> benchmarks_synonyms <span class="sc">%&gt;%</span> </span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pubchem_synonym =</span> benchmark_name) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>()</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>benchmarks_synonyms <span class="ot">&lt;-</span> benchmarks_synonyms <span class="sc">%&gt;%</span>  </span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bind_rows</span>(benchmarks_identity) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span> <span class="fu">is.na</span>(pubchem_synonym)) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>()</span></code></pre></div></li>
+<li><p>Join the CEDEN pollutant synonyms to the benchmark synonyms,
+resulting in a table with <code>ceden_name</code>,
+<code>pubchem_synonym</code>, and <code>benchmark_name</code> columns.
+Note that we created two lists of pubchem synonyms—one using pollutant
+names and another using benchmark names—and then joined them by the
+synonyms. This would be overkill if we were certain that PubChem infers
+all possible connections between pollutants based on synonyms, which is
+to say if synonym C corresponded with both pollutant A and benchmark B,
+then PubChem would automatically include synonym B in the synonym list
+for pollutant A and synonym A in the synonym list for benchmark B. Since
+we are not certain of this we pull synonym lists for both pollutants and
+benchmarks.</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>synonyms <span class="ot">&lt;-</span> <span class="fu">inner_join</span>(ceden_synonyms, benchmarks_synonyms, </span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>                       <span class="at">relationship =</span> <span class="st">&quot;many-to-many&quot;</span>)</span></code></pre></div></li>
+</ol>
+<h2 id="section-2-search-benchmarks-by-cas-number">Section 2: Search
+Benchmarks by CAS Number</h2>
+<ol type="1">
+<li><p>Prepare benchmark data. Remove benchmark rows that do no have CAS
+numbers and remove dashes from CAS numbers so they match the CAS number
+format of the CEDEN pollutants.</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>benchmarks <span class="ot">&lt;-</span> benchmarks <span class="sc">%&gt;%</span> </span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(cas_number <span class="sc">!=</span> <span class="st">&quot;NR&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">cas_number =</span> <span class="fu">str_replace_all</span>(cas_number, <span class="st">&quot;-&quot;</span>, <span class="st">&quot;&quot;</span>))</span></code></pre></div></li>
+<li><p>Search thresholdless pollutants for corresponding benchmarks that
+match my CAS number. Join CAS numbers to thresholdless pollutants.
+Remove rows that do not have CAS numbers. Remove all columns other that
+<code>ceden_name</code> and <code>cas_number.</code> Join benchmarks to
+thresholdless pollutants by CAS number. Order columns with
+<code>ceden_name</code> first, <code>benchmark_name</code> second, then
+everything else.</p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>thresholdless_benchmarks_by_cas <span class="ot">&lt;-</span> ceden_thresholdless <span class="sc">%&gt;%</span> </span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(ceden_all, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;ceden_name&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(cas_number <span class="sc">!=</span> <span class="st">&quot;0&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ceden_name, cas_number) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(benchmarks, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;cas_number&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ceden_name, benchmark_name, <span class="fu">everything</span>())</span></code></pre></div></li>
+<li><p>Save resulting table. Remove the non-breaking white space
+characters, which are an artifact of copy/pasting the benchmarks table
+from a web page. This process identified 30 new benchmarks for
+thresholdless pollutants for the 2026 Integrated Report cycle.</p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>thresholdless_benchmarks_by_cas <span class="sc">%&gt;%</span> </span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), <span class="sc">~</span> <span class="fu">gsub</span>(<span class="st">&quot;\ua0&quot;</span>, <span class="cn">NA</span>, .))) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write_csv</span>(<span class="st">&quot;output/thresholdless_benchmarks_by_cas.csv&quot;</span>,</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">na =</span> <span class="st">&quot;&quot;</span>) </span></code></pre></div></li>
+</ol>
+<h2 id="section-3-search-remaining-benchmarks-by-synonyms">Section 3:
+Search Remaining Benchmarks by Synonyms</h2>
+<p>Note that searching by synonym results in <em>potential</em> matches,
+each of which must be reviewed and verified.</p>
+<ol type="1">
+<li><p>Remove the benchmarks that matched to a thresholdless pollutant
+by CAS number so they do not result in additional rows that need to be
+reviewed here. Join the synonyms list to the benchmarks by
+<code>benchmark_name.</code> Remove <code>ceden_name</code> column
+brought in by synonyms list so it does not conflict with the
+<code>ceden_name</code> in the pollutants table when we join it with the
+benchmarks in the next step.</p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>benchmarks_remaining <span class="ot">&lt;-</span> benchmarks <span class="sc">%&gt;%</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(thresholdless_benchmarks_by_cas, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;benchmark_name&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(synonyms, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;benchmark_name&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>ceden_name)</span></code></pre></div></li>
+<li><p>Search thresholdless pollutants for corresponding benchmarks that
+<em>potentially</em> match by synonym. Remove pollutants that matched to
+a benchmark by CAS number. Join the synonyms list pollutants by
+<code>ceden_name.</code> Remove <code>benchmark_name</code> so it does
+not conflict with the <code>benchmark_name</code> column in the
+benchmarks table when we join it with the pollutants. Join the
+pollutants to the benchmarks by <code>pubchem_synonym.</code> Remove the
+<code>pubchem_synonym</code> column so that multiple rows of the same
+pollutant-benchmark combination that match by different synonyms can be
+reduced to a single row. Remove duplicate rows (that became dupliates
+after removing the <code>pubchem_synonym</code> column). Order the
+columns with <code>ceden_name</code> first, <code>benchmark_name</code>
+second, then everything else.</p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>thresholdless_benchmarks_by_synonym <span class="ot">&lt;-</span> ceden_thresholdless <span class="sc">%&gt;%</span> </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(thresholdless_benchmarks_by_cas, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;ceden_name&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(synonyms, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;ceden_name&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>benchmark_name) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(benchmarks_remaining, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;pubchem_synonym&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>pubchem_synonym) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ceden_name, benchmark_name, <span class="fu">everything</span>())</span></code></pre></div></li>
+<li><p>Save resulting table. Remove the non-breaking white space
+characters, which are an artifact of copy/pasting the benchmarks table
+from a web page. This process <em>potential</em> identified 11 new
+benchmarks for review for thresholdless pollutants for the 2026
+Integrated Report cycle.</p>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>thresholdless_benchmarks_by_synonym <span class="sc">%&gt;%</span> </span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), <span class="sc">~</span> <span class="fu">gsub</span>(<span class="st">&quot;\ua0&quot;</span>, <span class="cn">NA</span>, .))) <span class="sc">%&gt;%</span> </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write_csv</span>(<span class="st">&quot;output/thresholdless_benchmarks_by_synonym.csv&quot;</span>, </span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">na =</span> <span class="st">&quot;&quot;</span>) </span></code></pre></div></li>
+</ol>
+</body>
+</html>
