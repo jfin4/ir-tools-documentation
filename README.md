@@ -4,7 +4,7 @@
 
 [text](examples/identify-benchmarks.txt)
 
-[markdown script](scripts/identify-unassigned-benchmarks.md)
+[markdown script](scripts/identify-benchmarks.md)
 
 [html](examples/identify-benchmarks.html)
 
