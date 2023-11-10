@@ -1,13 +1,14 @@
 #  Documentation
 
-[word](comments.docx)
+[r script](scripts/identify-benchmarks.r)
+
+[text](examples/identify-benchmarks.txt)
+
+[markdown script](scripts/identify-unassigned-benchmarks.md)
 
 [html](examples/identify-benchmarks.html)
 
-[text](comments.txt)
+[word](examples/identify-benchmarks.docx)
 
-[markdown script](identify-unassigned-benchmarks.md)
+[pdf](examples/identify-benchmarks.pdf)
 
-[pdf](identify-unassigned-benchmarks.pdf)
-
-[r script](identify-unassigned-benchmarks.r)

@@ -1,0 +1,1024 @@
+﻿ANALYTE_NAME,DATA_SOURCE,MATRIX,NUMBER_OF_ROWS
+Salinity,"CIWQS,Field,WQ,WQX","runoff,samplewater",79699
+Transmittance,Field,samplewater,43758
+CDOM,Field,samplewater,42442
+PAR,Field,"air,samplewater",36166
+Total Suspended Solids,"CIWQS,WQ,WQX","SampleWater,Samplewater,samplewater,samplewater, particulate, >0.70 um",30294
+OrthoPhosphate as P,"CIWQS,Field,WQ","Samplewater,runoff,samplewater",26877
+Density,Field,samplewater,25851
+"Nitrogen, Total Kjeldahl","CIWQS,WQ,WQX","Samplewater,samplewater,sediment",25048
+Moisture,"Tissue,WQ","sediment,sediment, <63 um,tissue",19974
+Total Hardness (calc),CIWQS,,19467
+Discharge,"CIWQS,Field,WQ","runoff,samplewater",17669
+Velocity,Field,"runoff,samplewater",14896
+"Nitrogen, Organic","CIWQS,WQ,WQX",samplewater,11323
+Total Organic Carbon,"CIWQS,WQ,WQX","samplewater,sediment",9798
+Hardness as CaCO3,"CIWQS,WQ","SampleWater,Samplewater,samplewater",8335
+Calcium,"CIWQS,WQ,WQX","SampleWater,Samplewater,samplewater,sediment",8324
+Magnesium,"CIWQS,WQ,WQX","SampleWater,Samplewater,samplewater,sediment",8272
+Dissolved Organic Carbon,"CIWQS,WQ,WQX","Samplewater,samplewater,samplewater, <0.45 um,samplewater, <0.7 um",8266
+BOD,"CIWQS,WQ",samplewater,5615
+Sand,WQ,"samplewater,sediment",5347
+Settleable Solids,"CIWQS,WQ",samplewater,4969
+OilandGrease,CIWQS,,4094
+Phosphate as P,"CIWQS,WQ",samplewater,3843
+Silica as SiO2,"CIWQS,Field,WQ",samplewater,3636
+Potassium,"CIWQS,WQ,WQX","samplewater,sediment",3303
+Suspended Sediment Concentration,"WQ,WQX","samplewater,sediment, elutriate",3133
+Pheophytin a,"WQ,WQX",samplewater,2981
+Clay,WQ,"samplewater,sediment",2798
+Total Solids,"CIWQS,Tissue,WQ","sediment,tissue",2718
+Silt,WQ,"samplewater,sediment",2705
+"Bacteroidales, Human",WQ,"samplewater,sediment",2577
+"Carbon, Total","WQ,WQX","samplewater,samplewater, particulate, >0.70 um",2522
+Lipid,Tissue,tissue,2292
+Carbonate,"CIWQS,WQ,WQX","Samplewater,samplewater",2087
+Chloroethane,"CIWQS,WQ,WQX",samplewater,2067
+Bicarbonate,"CIWQS,WQ,WQX",samplewater,2066
+Endrin Ketone,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",2036
+"Dinitrotoluene, 2,6-","CIWQS,WQ","samplewater,sediment",1976
+Oxidation-Reduction Potential,Field,samplewater,1932
+PBDE 183,"Tissue,WQ","samplewater,sediment,tissue",1860
+Precipitation,CIWQS,,1851
+Age,Tissue,tissue,1836
+"Nitrophenol, 2-","CIWQS,WQ","samplewater,sediment",1834
+Di-n-octyl Phthalate,"CIWQS,WQ","samplewater,sediment",1832
+PBDE 153,"Tissue,WQ","samplewater,sediment,tissue",1817
+PBDE 154,"Tissue,WQ","samplewater,sediment,tissue",1814
+PBDE 100,"Tissue,WQ","samplewater,sediment,tissue",1812
+"Nitrophenol, 4-","CIWQS,WQ","samplewater,sediment",1812
+Fenchlorphos,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",1809
+PBDE 047,"Tissue,WQ","samplewater,sediment,tissue",1808
+Trichloronate,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",1807
+PBDE 099,"Tissue,WQ","samplewater,sediment,tissue",1807
+Tokuthion,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",1805
+"Bromophenyl Phenyl Ether, 4-","CIWQS,WQ",samplewater,1751
+"Chlorophenyl Phenyl Ether, 4-","CIWQS,WQ",samplewater,1751
+"Chloroethyl Vinyl Ether, 2-","CIWQS,WQ,WQX",samplewater,1739
+"Dichlorobenzidine,3,3'-",CIWQS,,1731
+"Nitrogen, Inorganic","CIWQS,WQ",samplewater,1576
+COD,"CIWQS,WQ",samplewater,1509
+PBDE 209,"Tissue,WQ","samplewater,sediment,tissue",1446
+Fensulfothion,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",1438
+Mevinphos,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",1431
+Bolstar,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",1431
+PBDE 066,"Tissue,WQ","samplewater,sediment,tissue",1412
+"Trihalomethanes, Total","CIWQS,WQ",samplewater,1403
+"Methylnaphthalene, 1-","CIWQS,WQ","samplewater,sediment",1323
+Total Alkalinity (calc),CIWQS,,1303
+PBDE 028,"Tissue,WQ","samplewater,sediment,tissue",1302
+Pebble,WQ,sediment,1292
+"DDMU(p,p')","Tissue,WQ","samplewater,sediment,tissue",1279
+COBD5,CIWQS,,1256
+Perylene,"CIWQS,Tissue,WQ","samplewater,sediment,tissue",1241
+Benzo(e)pyrene,"CIWQS,Tissue,WQ","samplewater,sediment,tissue",1235
+PBDE 190,"Tissue,WQ","samplewater,sediment,tissue",1199
+"Bacteroidales, Dog",WQ,"samplewater,sediment",1178
+PBDE 138,"Tissue,WQ","samplewater,sediment,tissue",1157
+"Catellicoccus, Gull",WQ,"samplewater,sediment",1140
+Human Adenovirus ,WQ,"samplewater,sediment",1135
+PBDE 085,"Tissue,WQ","samplewater,sediment,tissue",1131
+"Dimethylnaphthalene, 2,6-","CIWQS,WQ","samplewater,sediment",1118
+"Methylphenanthrene, 1-","Tissue,WQ","samplewater,sediment,tissue",1111
+PBDE 030,"Tissue,WQ","samplewater,sediment,tissue",1105
+PBDE 017,"Tissue,WQ","samplewater,sediment,tissue",1048
+PBDE 206,"Tissue,WQ","samplewater,sediment,tissue",1003
+PBDE 208,"Tissue,WQ","samplewater,sediment,tissue",989
+PBDE 207,"Tissue,WQ","samplewater,sediment,tissue",970
+PBDE 202,"Tissue,WQ","samplewater,sediment,tissue",922
+PBDE 201,"Tissue,WQ","samplewater,sediment,tissue",916
+PBDE 188,"Tissue,WQ","samplewater,sediment,tissue",907
+PBDE 179,"Tissue,WQ","samplewater,sediment,tissue",907
+"2-(2,4,5-Trichlorophenoxy)propionic Acid",CIWQS,,898
+PBDE 203,"Tissue,WQ","samplewater,sediment,tissue",891
+PBDE 184,"Tissue,WQ","samplewater,sediment,tissue",884
+Hydroxide,"WQ,WQX",samplewater,844
+Total PCBs,"CIWQS,Tissue,WQ,WQX","Samplewater,samplewater,sediment,tissue",835
+Barometric Pressure,"Field,WQX","air,samplewater",811
+"Dioxane, 1,4-",CIWQS,,805
+PBDE 200,"Tissue,WQ","samplewater,sediment,tissue",802
+Fipronil Desulfinyl Amide,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um,sediment",771
+ObservedFlow,Field,"runoff,samplewater",759
+PBDE 049,"Tissue,WQ","samplewater,sediment,tissue",693
+Salmonella,WQ,samplewater,685
+Granule,WQ,"samplewater,sediment",685
+StationWaterDepth,Field,samplewater,638
+"Bacteroidales, Universal",WQ,samplewater,627
+Blue-Green Algae Phycocyanin,Field,samplewater,609
+Famoxadone,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",608
+Cyhalothrin,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um,sediment",604
+Metconazole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",580
+Malaoxon,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Tebupirimfos,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Cyproconazole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Fenbuconazole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Fluoxastrobin,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Triticonazole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Cyhalofop-butyl,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Chlorpyrifos Oxon,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Tebupirimfos oxon,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Zoxamide,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Flufenacet,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Triallate ,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Flumetralin,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Triadimenol,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Butralin,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Pentachloroanisole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+"Dichloroaniline, 3,5-",WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",578
+Dibenzothiophene,"Tissue,WQ","samplewater,sediment,tissue",575
+"Dichlorobenzenamine, 3,4-",WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",569
+PBDE 028/33,"Tissue,WQ","samplewater,sediment,tissue",554
+Fluxapyroxad,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",544
+Periphyton Biomass Index,Field,Epilithic Periphyton,539
+PCB 135/151,"CIWQS,WQ","Samplewater,samplewater,sediment",529
+Diazoxon,WQ,"samplewater, <0.7 um,samplewater, particulate, >0.70 um",526
+PBDE 075,"Tissue,WQ","samplewater,sediment,tissue",524
+PCB 129/138/163,"CIWQS,WQ","Samplewater,samplewater,sediment",514
+Perthane,"Tissue,WQ","samplewater,sediment,tissue",502
+PBDE 015,"Tissue,WQ","samplewater,sediment,tissue",495
+"Trimethylnaphthalene, 2,3,5-",WQ,"samplewater,sediment",487
+PBDE 155,"Tissue,WQ","samplewater,sediment,tissue",486
+PBDE 033,"Tissue,WQ","samplewater,sediment,tissue",483
+"Trimethylnaphthalene, 1,6,7-",WQ,sediment,468
+Sulfotep,"Tissue,WQ,WQX","samplewater,sediment,tissue",448
+CBOD5,WQ,samplewater,444
+Sedaxane,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",441
+Ipconazole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",441
+Thionazin,"CIWQS,Tissue,WQ,WQX","samplewater,sediment,tissue",436
+Famphur,"WQ,WQX",samplewater,436
+Human Marker (HF183),WQ,samplewater,434
+PBDE 209-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 183-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 154-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 153-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 047-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 099-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 100-13C12(IsoDilAnalogue),Tissue,tissue,430
+PBDE 028-13C12(IsoDilAnalogue),Tissue,tissue,430
+"Sulfide, Total","CIWQS,WQ","samplewater,sediment",425
+Dichlofenthion,"Tissue,WQ,WQX","samplewater,sediment,tissue",425
+"HxCDF, 1,2,3,7,8,9-","CIWQS,WQ",samplewater,424
+Human_HF183TMCaMan,WQ,samplewater,421
+"HxCDF, 1,2,3,6,7,8-","CIWQS,WQ",samplewater,421
+"HxCDD, 1,2,3,4,7,8-","CIWQS,WQ",samplewater,420
+"HpCDF, 1,2,3,4,7,8,9-","CIWQS,WQ",samplewater,418
+"HxCDD, 1,2,3,6,7,8-","CIWQS,WQ",samplewater,413
+"HxCDF, 1,2,3,4,7,8-","CIWQS,WQ",samplewater,410
+Ruminant_Rum2Bac,WQ,samplewater,407
+sand,WQ,sediment,405
+"HpCDF, 1,2,3,4,6,7,8-","CIWQS,WQ",samplewater,405
+"HxCDD, 1,2,3,7,8,9-","CIWQS,WQ",samplewater,404
+"PeCDD, 1,2,3,7,8-","CIWQS,WQ",samplewater,404
+"HxCDF, 2,3,4,6,7,8-","CIWQS,WQ",samplewater,401
+"HpCDD, 1,2,3,4,6,7,8-","CIWQS,WQ",samplewater,400
+Cryptosporidium,WQ,samplewater,399
+"Dichlorophenyl-3-methyl Urea, 3,4-","WQ,WQX","samplewater,samplewater, <0.7 um",396
+Giardia,WQ,samplewater,390
+Calcium Bound Phosphorus,WQ,sediment,387
+Gravel,WQ,sediment,382
+"Phosphorus, Iron Bound",WQ,sediment,381
+"Phosphorus, Inorganic",WQ,samplewater,377
+"Phosphorus, loosely bound",WQ,sediment,376
+Residual Phosphorus,WQ,sediment,368
+Secchi Depth,"CIWQS,Field",samplewater,342
+PCB 086/87/97/109/119/125,WQ,"Samplewater,samplewater,sediment",338
+PCB 108/124,WQ,"Samplewater,samplewater,sediment",335
+Ammonia as NH3,WQ,samplewater,334
+"Dichlorophenyl Urea, 3,4-",WQ,"samplewater,samplewater, <0.7 um",334
+PBDE 071,"Tissue,WQ","samplewater,sediment,tissue",334
+Particulate Organic Carbon,"WQ,WQX","samplewater,samplewater, particulate, >0.70 um",334
+Thiazopyr,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",326
+Flusilazole,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",326
+Tetradifon,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",326
+TPH as Gasoline C6-C10,"WQ,WQX",samplewater,324
+Perfluorooctanoate,"Tissue,WQ,WQX","samplewater,sediment,tissue",324
+"Chlorine, Free",Field,"runoff,samplewater",318
+Perfluorohexanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",313
+Perfluorobutanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",313
+Perfluorohexanoate,"Tissue,WQ","samplewater,sediment,tissue",313
+Perfluoroheptanoate,"Tissue,WQ","samplewater,sediment,tissue",312
+Perfluorooctanesulfonate,"Tissue,WQ,WQX","samplewater,sediment,tissue",312
+Perfluorooctanesulfonamide,"Tissue,WQ","samplewater,sediment,tissue",310
+Perfluoroundecanoate,"Tissue,WQ","samplewater,sediment,tissue",309
+Perfluorododecanoate,"Tissue,WQ","samplewater,sediment,tissue",309
+Perfluorodecanoate,"Tissue,WQ","samplewater,sediment,tissue",308
+Perfluoropentanoate,"Tissue,WQ","samplewater,sediment,tissue",308
+Perfluorobutanoate,"Tissue,WQ","samplewater,sediment,tissue",307
+Perfluorononanoate,"Tissue,WQ","samplewater,sediment,tissue",306
+HF183TMSIPP,WQ,samplewater,302
+Tin,"CIWQS,WQ","samplewater,sediment",301
+Silt + Clay,WQ,sediment,293
+Ethaboxam,WQ,"samplewater,samplewater, <0.7 um",290
+Desthio-prothioconazole,WQ,"samplewater,samplewater, <0.7 um",290
+Cymoxanil,WQ,"samplewater,samplewater, <0.7 um",290
+Fluopyram,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",280
+"Dibenzothiophenes, C3-",WQ,"samplewater,sediment",273
+"Dibenzothiophenes, C2-",WQ,"samplewater,sediment",270
+Pyriproxyfen,WQ,"samplewater,samplewater, <0.7 um,samplewater, particulate, >0.70 um",258
+Benzovindiflupyr,WQ,"samplewater, <0.7 um,samplewater, particulate, >0.70 um",252
+Etoxazole,WQ,"samplewater, <0.7 um,samplewater, particulate, >0.70 um",252
+Isofetamid,WQ,"samplewater, <0.7 um,samplewater, particulate, >0.70 um",252
+Indaziflam,WQ,"samplewater, <0.7 um,samplewater, particulate, >0.70 um",252
+Orthophosphate,CIWQS,,247
+Galaxolide,WQ,"samplewater,sediment",243
+Fine,WQ,"samplewater,sediment",241
+Total Inorganic Carbon,WQ,"samplewater, particulate, >0.70 um",235
+PCB 040/71,WQ,sediment,209
+Caffeine,"WQ,WQX",samplewater,203
+PBDE 105,"Tissue,WQ","samplewater,sediment,tissue",199
+PBDE 128,"Tissue,WQ","samplewater,sediment,tissue",197
+Fipronil Amide,WQ,"samplewater,sediment",192
+Titanium,"WQ,WQX","samplewater,sediment",192
+PBDE 035,"Tissue,WQ","samplewater,sediment,tissue",191
+Gage Height,Field,samplewater,190
+PCB AROCLOR 1262,"CIWQS,WQ",sediment,190
+PCB 093/100,WQ,sediment,190
+PCB 098/102,WQ,sediment,190
+Bis(2-ethylhexyl)adipate,"CIWQS,WQ,WQX",samplewater,189
+PBDE 181,"Tissue,WQ","samplewater,sediment,tissue",186
+"Dimethylphenanthrene, 3,6-","Tissue,WQ","samplewater,sediment,tissue",185
+"Dibenzothiophenes, C1-","Tissue,WQ","samplewater,sediment,tissue",184
+"Hydroxycarbofuran, 3- ","WQ,WQX","samplewater,sediment",182
+Sulfite as SO3,"CIWQS,WQ",samplewater,180
+PBDE 010,"Tissue,WQ","samplewater,sediment,tissue",179
+PCB AROCLOR 1268,WQ,sediment,177
+PBDE 116,"Tissue,WQ","samplewater,sediment,tissue",176
+TPH as Motor Oil C21-C32,WQ,samplewater,170
+PBDE 077,"Tissue,WQ","samplewater,sediment,tissue",167
+PBDE 032,"Tissue,WQ","samplewater,sediment,tissue",164
+Dichloran,WQ,"samplewater,sediment",154
+PBDE 079,"Tissue,WQ","samplewater,sediment,tissue",154
+PCT AROCLOR 5460,WQ,sediment,153
+PCT AROCLOR 5442,WQ,sediment,152
+PCT AROCLOR 5432,WQ,sediment,152
+"Cyhalothrin, Total",WQ,"samplewater, <0.7 um,samplewater, particulate, >0.70 um,sediment",151
+PBDE 126,"Tissue,WQ","samplewater,sediment,tissue",151
+Sucralose,WQ,samplewater,151
+Decamethylcyclopentasiloxane,WQ,sediment,149
+Octamethylcyclotetrasiloxane,WQ,sediment,149
+Dodecamethylcyclohexasiloxane,WQ,sediment,149
+PCB 093/98/100/102,WQ,"Samplewater,samplewater,sediment",145
+Dog_DG37,WQ,samplewater,144
+Gull_Gull2TM,WQ,samplewater,143
+Not Characterized Fragment,WQ,"samplewater, particulate, > 212 um,samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",137
+Polyethylene fragment,WQ,"samplewater, particulate, > 212 um,samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",135
+"Methylphenol, 2-","CIWQS,WQ","samplewater,sediment",131
+Nodularin,"Tissue,WQ","samplewater,tissue",130
+PBDE 139-13C12(IsoDilAnalogue),Tissue,tissue,130
+Acid Neutralizing Capacity,"WQ,WQX",samplewater,129
+Carboxin,WQ,"samplewater, <0.7 um",128
+Tricyclazole,WQ,"samplewater, <0.7 um",128
+Flupyradifurone,WQ,"samplewater, <0.7 um",128
+Oxathiapiprolin,WQ,"samplewater, <0.7 um",128
+Thiamethoxam Degradate (NOA-407475),WQ,"samplewater, <0.7 um",128
+Thiamethoxam Degradate (CGA-355190),WQ,"samplewater, <0.7 um",128
+Sulfoxaflor,WQ,"samplewater, <0.7 um",128
+Sum of HPAHs (Integral),WQ,sediment,125
+Okadaic Acid,"Tissue,WQ","samplewater,tissue",124
+Sum of LPAHs (Integral),WQ,sediment,123
+"Nonylphenol, tech-",WQ,samplewater,121
+"Nonylphenol, 4-n-",WQ,samplewater,121
+Dibenzofuran,"CIWQS,Tissue",tissue,119
+Selenate as Se,WQ,"samplewater,sediment",118
+Selenite as Se,WQ,"samplewater,sediment",118
+"Octylphenol, tert-4-",WQ,samplewater,117
+"Octylphenol monoethoxylate, 4-n-",WQ,samplewater,117
+"Nonylphenol monoethoxylate, 4-n-",WQ,samplewater,117
+"Nonylphenol diethoxylate, tech-",WQ,samplewater,117
+Nonylphenol monoethoxylate,WQ,samplewater,117
+Neburon,"WQ,WQX",samplewater,117
+"Octylphenol, 4-n-",WQ,samplewater,117
+Not Characterized Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >125 to 500 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",116
+PBDE 119,"Tissue,WQ","samplewater,sediment,tissue",116
+Gross Alpha,"CIWQS,WQ",samplewater,116
+Fenuron,"WQ,WQX",samplewater,115
+Cyanobacteria,WQ,samplewater,114
+Naproxen,"WQ,WQX",samplewater,112
+Anion-Cation Balance,"CIWQS,WQ,WQX",samplewater,111
+"Dichloropropene, 1,1-","CIWQS,WQ,WQX",samplewater,110
+Ibuprofen,"WQ,WQX",samplewater,109
+PBDE 017/25,"Tissue,WQ","samplewater,sediment,tissue",107
+PBDE 140,"Tissue,WQ","samplewater,sediment,tissue",107
+PBDE 200/203,"Tissue,WQ","samplewater,sediment,tissue",107
+PBDE 012,"Tissue,WQ","samplewater,sediment,tissue",107
+Total Chlordanes,WQ,sediment,103
+PBDE 037,"Tissue,WQ","samplewater,sediment,tissue",102
+Barban,"WQ,WQX",samplewater,100
+"Color, True","WQ,WQX",samplewater,100
+Total Trichlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 081 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+Total Hexachlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+Total Monochlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+Total Nonachlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+Total Octachlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+Total Heptachlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+Total Pentachlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+Total Tetrachlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 105 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 114 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 118 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 123 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 126 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 156 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 167 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 169 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 189 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB TOTAL (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB TOTAL (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 077 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 081 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 105 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 114 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 118 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 123 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 126 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 156 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 167 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 169 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 189 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+Total Dichlorobiphenyls,"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 077 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 081 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 105 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 114 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 118 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 123 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 126 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 156 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 167 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 169 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 189 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB 077 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",98
+PCB TOTAL (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",98
+Triclosan,"WQ,WQX",samplewater,97
+Gemfibrozil,"WQ,WQX",samplewater,97
+Diclofenac,"WQ,WQX",samplewater,97
+PBDE 205,"Tissue,WQ","samplewater,tissue",94
+Polypropylene fragment,WQ,"samplewater, particulate, > 212 um,samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 um",93
+Perfluoropentanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",93
+"Ethyl Perfluorooctane Sulfonamido Acetic Acid, N-","Tissue,WQ","samplewater,sediment,tissue",92
+Perfluorononanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",92
+"Chlorohexadecafluoro-3-Oxanonane-1-Sulfonic Acid, 9-","Tissue,WQ","samplewater,sediment,tissue",92
+"Chloroeicosafluoro-3-Oxaundecane-1-Sulfonic Acid, 11-","Tissue,WQ","samplewater,sediment,tissue",92
+"Butyl-N-ethyl-2,6-dinitro-4-(trifluoromethyl)aniline, N-",WQ,samplewater,92
+Perfluoroheptanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",92
+Perfluorododecanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",92
+"Fluorotelomer Sulfonate, 4:2-","Tissue,WQ","samplewater,sediment,tissue",92
+"Fluorotelomer Sulfonate, 6:2-","Tissue,WQ","samplewater,sediment,tissue",92
+"Fluorotelomer Sulfonate, 8:2-","Tissue,WQ","samplewater,sediment,tissue",92
+"Ethyl-perfluorooctanesulfonamide, N-","Tissue,WQ","samplewater,sediment,tissue",92
+"Methyl-perfluorooctanesulfonamide, N-","Tissue,WQ","samplewater,sediment,tissue",92
+"Dioxa-3H-Perfluorononanoate Acid, 4,8-","Tissue,WQ","samplewater,sediment,tissue",92
+Perfluorotridecanoate,"Tissue,WQ","samplewater,sediment,tissue",92
+TPH as Diesel C12-C24,WQ,samplewater,92
+Perfluorotetradecanoate,"Tissue,WQ","samplewater,sediment,tissue",92
+Perfluorodecanesulfonate,"Tissue,WQ","samplewater,sediment,tissue",92
+"Methyl Perfluorooctane Sulfonamido Acetic Acid, N-","Tissue,WQ","samplewater,sediment,tissue",92
+Lithium,WQX,samplewater,88
+"DDD(o,p')/PCB 118",WQ,sediment,87
+"Nitroaniline, 2-","CIWQS,WQ",samplewater,87
+"Diphenylanthracene, 9,10-",WQ,sediment,86
+"Methyldibenzothiophene, 4-",WQ,"samplewater,sediment",86
+Perfluoro-2-Propoxypropanoic Acid,"Tissue,WQ","samplewater,sediment,tissue",86
+"Hexanone, 2-","CIWQS,WQ,WQX",samplewater,86
+"Nitroaniline, 4-","CIWQS,WQ",samplewater,86
+"Methylfluorene, 1-",WQ,"samplewater,sediment",86
+"Methylfluoranthene, 2-",WQ,"samplewater,sediment",86
+Trimethoprim,"WQ,WQX",samplewater,84
+Meprobamate,"WQ,WQX",samplewater,84
+Sulfamethoxazole,"WQ,WQX",samplewater,84
+Carbamazepine,"WQ,WQX",samplewater,84
+PBDE 007,"Tissue,WQ","samplewater,sediment,tissue",82
+"Methylphenol, 3/4-","CIWQS,WQ","samplewater,sediment",82
+clay,WQ,sediment,81
+silt,WQ,sediment,81
+PBDE 051,"Tissue,WQ","samplewater,sediment,tissue",81
+colloid,WQ,sediment,81
+gravel,WQ,sediment,81
+Salicylic Acid,WQ,samplewater,79
+"Nitroaniline, 3-","CIWQS,WQ",samplewater,79
+Atenolol,"WQ,WQX",samplewater,79
+Fluoxetine,"WQ,WQX",samplewater,79
+PBDE 008,"Tissue,WQ","samplewater,sediment,tissue",79
+Iopromide,WQ,samplewater,79
+Cotinine,"WQ,WQX",samplewater,79
+PCB 157 (TEQ ND=DL),"Tissue,WQ","samplewater,sediment,tissue",78
+PCB 157 (TEQ ND=0),"Tissue,WQ","samplewater,sediment,tissue",78
+PCB 157 (TEQ ND=1/2 DL),"Tissue,WQ","samplewater,sediment,tissue",78
+"Perfluoro-3,6-dioxaheptanoate","Tissue,WQ","samplewater,sediment,tissue",77
+Perfluorooctanoic acid (PFOA),WQ,samplewater,77
+"Fluorotelomer Carboxylic Acid, 5:3-","Tissue,WQ","samplewater,sediment,tissue",77
+Aminocarb,WQ,samplewater,77
+Perfluorooctanesulfonic acid (PFOS),WQ,samplewater,77
+Perfluoro(2-ethoxyethane)sulfonic Acid,"Tissue,WQ","samplewater,sediment,tissue",77
+Benzyl Alcohol,"CIWQS,WQ",samplewater,77
+"Fluorotelomer Carboxylic Acid, 7:3-","Tissue,WQ","samplewater,sediment,tissue",77
+"Ethynylestradiol, 17alpha-",WQ,samplewater,76
+Testosterone,WQ,samplewater,76
+Progesterone,WQ,samplewater,76
+Estrone,WQ,samplewater,76
+"Estradiol, 17beta-",WQ,samplewater,76
+Mexacarbate,WQ,samplewater,75
+Chloroxuron,WQ,samplewater,75
+Tris(2-chloroethyl)phosphate,"WQ,WQX","samplewater,sediment",74
+Granule + Pebble,WQ,"samplewater,sediment",74
+Dibromomethane,"CIWQS,WQ,WQX",samplewater,74
+"Ethyl-perfluorooctanesulfonamidoethanol, N-","Tissue,WQ","samplewater,sediment,tissue",72
+Oxygen-18/Oxygen-16 Ratio,"WQ,WQX",samplewater,72
+Perfluoro-4-methoxybutanoate,"Tissue,WQ","samplewater,sediment,tissue",72
+Perfluoro-3-methoxypropanoate,"Tissue,WQ","samplewater,sediment,tissue",72
+"Fluorotelomer Carboxylic Acid, 3:3-","Tissue,WQ","samplewater,sediment,tissue",72
+Avian_GFD,WQ,samplewater,70
+TPH as Gasoline C4-C13,WQ,samplewater,70
+Nitrogen-15/Nitrogen-14 Ratio,WQ,samplewater,69
+"Benzo(b)fluorene, 11H-",WQ,sediment,68
+Azithromycin,"WQ,WQX",samplewater,66
+"Tris(1,3-dichloroisopropyl)phosphate","WQ,WQX",samplewater,66
+Benzoic Acid,"CIWQS,WQ",samplewater,65
+"Chloroaniline, 4-",CIWQS,,65
+Diazepam,"WQ,WQX",samplewater,64
+Triclocarban,"WQ,WQX",samplewater,62
+Tris(1-chloro-2-propyl)phosphate,WQ,samplewater,61
+Perfluorodecanoate-13C6(IsoDilAnalogue),"Tissue,WQ","samplewater,tissue",61
+Chlorzoxazone,WQ,sediment,61
+Ciprofloxacin,WQ,samplewater,61
+Azinphos Ethyl,"WQ,WQX",samplewater,61
+Atorvastatin,WQ,samplewater,61
+Methadone,WQ,samplewater,61
+Phenytoin,WQ,samplewater,61
+Primidone,WQ,samplewater,61
+Amoxicillin,WQ,samplewater,61
+Total Endosulfans,CIWQS,,61
+TPH as Motor Oil C24-C36,WQ,samplewater,60
+Detergent,Field,samplewater,60
+Bispyribac Sodium,WQ,samplewater,60
+TPH as Motor Oil C17-C44,WQ,samplewater,59
+Anthropogenic (cellulosic) fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",59
+Polyester fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",58
+TPH as Motor Oil C25-C36,WQ,samplewater,57
+PhiX174,WQ,samplewater,56
+Battery Voltage,Field,not applicable,56
+Perfluorododecanoate-13C2(IsoDilAnalogue),Tissue,tissue,55
+PBDE 166,"Tissue,WQ","samplewater,sediment,tissue",55
+Perfluorotetradecanoate-13C2(IsoDilAnalogue),Tissue,tissue,55
+Perfluorobutanesulfonate-13C3(IsoDilAnalogue),Tissue,tissue,55
+Perfluorohexanesulfonate-13C3(IsoDilAnalogue),Tissue,tissue,55
+Perfluorooctanesulfonate-13C8(IsoDilAnalogue),Tissue,tissue,55
+Perfluorooctanesulfonamide-13C8(IsoDilAnalogue),Tissue,tissue,55
+"Fluorotelomer Sulfonate-13C2, 4:2-(IsoDilAnalogue)",Tissue,tissue,55
+"Fluorotelomer Sulfonate-13C2, 6:2-(IsoDilAnalogue)",Tissue,tissue,55
+"Fluorotelomer Sulfonate-13C2, 8:2-(IsoDilAnalogue)",Tissue,tissue,55
+Perfluoro-2-Propoxypropanoic Acid-13C3(IsoDilAnalogue),Tissue,tissue,55
+"Ethyl-perfluorooctanesulfonamide-d5, N-(IsoDilAnalogue)",Tissue,tissue,55
+"Methyl-perfluorooctanesulfonamide-d3, N-(IsoDilAnalogue)",Tissue,tissue,55
+"Ethyl Perfluorooctane Sulfonamido Acetic Acid-d5, N-(IsoDilAnalogue)",Tissue,tissue,55
+"Methyl Perfluorooctane Sulfonamido Acetic Acid-d3, N-(IsoDilAnalogue)",Tissue,tissue,55
+Perfluorobutanoate-13C4(IsoDilAnalogue),Tissue,tissue,55
+Perfluorohexanoate-13C5(IsoDilAnalogue),Tissue,tissue,55
+Perfluorononanoate-13C9(IsoDilAnalogue),Tissue,tissue,55
+Perfluorooctanoate-13C8(IsoDilAnalogue),Tissue,tissue,55
+Perfluoroheptanoate-13C4(IsoDilAnalogue),Tissue,tissue,55
+Perfluoropentanoate-13C5(IsoDilAnalogue),Tissue,tissue,55
+Desisopropyl-Atrazine,"WQ,WQX",samplewater,55
+"Dichloropropane, 2,2-","CIWQS,WQ",samplewater,55
+PBDE 011,"Tissue,WQ","samplewater,sediment,tissue",55
+PBDE 013,"Tissue,WQ","samplewater,sediment,tissue",55
+PBDE 025,"Tissue,WQ","samplewater,sediment,tissue",55
+PBDE 120,"Tissue,WQ","samplewater,sediment,tissue",55
+Perfluoroundecanoate-13C7(IsoDilAnalogue),Tissue,tissue,55
+Leptophos,"WQ,WQX",samplewater,54
+Chlorfenvinphos,"WQ,WQX",samplewater,54
+"Trichlorobenzene, 1,2,3-","CIWQS,WQ,WQX",samplewater,53
+"Methyl-perfluorooctanesulfonamidoethanol, N-","Tissue,WQ","samplewater,sediment,tissue",52
+Azinphos Methyl oxon,WQ,samplewater,52
+Diazinon oxon,WQ,samplewater,52
+Bromuconazole,WQ,samplewater,52
+OilandGrease; SGT-HEM,"WQ,WQX","samplewater,sediment",52
+Suspended Sediment Discharge,WQX,samplewater,51
+Polystyrene foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",51
+Monocrotophos,"WQ,WQX",samplewater,51
+Total Anions,"CIWQS,WQ",samplewater,51
+"Ethyl-perfluorooctanesulfonamidoethanol-d9, N-(IsoDilAnalogue)",Tissue,tissue,50
+"Methyl-perfluorooctanesulfonamidoethanol-d7, N-(IsoDilAnalogue)",Tissue,tissue,50
+Polyethylene sphere,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um",50
+Phosphamidon,"WQ,WQX",samplewater,50
+Aspon,"WQ,WQX",samplewater,50
+Ciodrin,"WQ,WQX",samplewater,50
+Dioxathion,"WQ,WQX",samplewater,50
+Total Cations,"CIWQS,WQ",samplewater,50
+Human Norovirus GI,WQ,samplewater,49
+Tert-amyl Methyl Ether,"CIWQS,WQ,WQX",samplewater,49
+Soot,WQ,sediment,48
+Anthropogenic (unknown base) fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",46
+Desethyl-desisopropyl-atrazine,"WQ,WQX",samplewater,45
+"Nitrosodiethylamine, N-","CIWQS,WQ",samplewater,45
+Benzo(j/k)fluoranthene,"Tissue,WQ","samplewater,sediment,tissue",45
+TPH as Diesel C10-C24,WQ,samplewater,45
+"Chlordane, Technical",WQ,"samplewater,sediment",44
+Not Characterized Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >125 to 500 um,sediment, >355 to 500 um",44
+"Isopropyltoluene, p-","CIWQS,WQ",samplewater,44
+"Dichlorophenol, 2,6-","CIWQS,WQ",sediment,43
+Diaminochlorotriazine (DACT),WQ,samplewater,43
+Ethyl Tert-butyl Ether,"CIWQS,WQ,WQX",samplewater,42
+Uranium,"CIWQS,WQX",samplewater,42
+Polyethylene Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",42
+Acrylic fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",41
+Tert-butyl Alcohol,"CIWQS,WQ",samplewater,41
+Diisopropyl Ether,"CIWQS,WQ,WQX",samplewater,41
+TPH as Gasoline C4-C12,WQ,"samplewater,sediment",40
+"Fluorobiphenyl, 2-","CIWQS,WQ,WQX",samplewater,40
+C. jejuni,WQ,samplewater,40
+C. coli,WQ,samplewater,40
+PMMoV,WQ,samplewater,40
+"Methylphenol, 4-","CIWQS,WQ",samplewater,39
+Cellulosic Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",39
+Cotton fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",37
+Not Characterized Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",37
+Aniline,CIWQS,,35
+"Dimethyldibenzothiophene, 2,4-","Tissue,WQ","sediment,tissue",34
+Gross Beta,"CIWQS,WQ",samplewater,34
+Pyridine,CIWQS,,34
+"Carbon Dioxide, total",WQ,samplewater,34
+Amphetamine,WQX,samplewater,33
+"Bacteroidales, Horse",WQ,samplewater,33
+"Tetrachlorophenol, 2,3,4,6-","CIWQS,WQ",sediment,32
+"Tetraethyl pyrophosphate, TEPP",WQ,samplewater,32
+Fipronil DetrifluoroMethylsulfinyl,WQ,sediment,32
+Total Hepta-Dioxins,WQ,samplewater,32
+Total Penta-Dioxins,WQ,samplewater,32
+Total Tetra-Furans,WQ,samplewater,32
+WaterClarity,Field,samplewater,32
+Total Hexa-Furans,WQ,samplewater,32
+Total Hepta-Furans,WQ,samplewater,32
+Total Hexa-Dioxins,WQ,samplewater,32
+Total Penta-Furans,WQ,samplewater,32
+Total Tetra-Dioxins,WQ,samplewater,32
+"Methylphenanthrene, 9/4-",WQ,sediment,31
+"Carbon dioxide, free",WQ,samplewater,30
+Atraton,"WQ,WQX",samplewater,30
+"Methylphenanthrene, 2-",WQ,sediment,30
+AFDM_Algae,WQ,samplewater,29
+"Clostridiales, Human (LACHNO3)",WQ,samplewater,28
+"Phenolics, Total",WQ,samplewater,28
+Not Characterized Sphere,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",28
+"Tetramethylnaphthalene, 1,4,6,7-","Tissue,WQ","sediment,tissue",27
+Imazapyr,WQ,samplewater,27
+Polypropylene film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",27
+Inorganic Natural Material Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 um",26
+SOD,WQ,sediment,26
+Acid Volatile Sulfides,WQ,sediment,26
+Polypropylene fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >500 um",25
+"Methyl (3,4-dichlorophenyl)carbamate","WQ,WQX",samplewater,25
+"Dibenzo(a,h)anthracene/indeno(1,2,3-cd)pyrene",WQ,sediment,24
+Scandium,"WQ,WQX",samplewater,24
+Yttrium,"WQ,WQX",samplewater,24
+"Tribromophenol, 2,4,6-","CIWQS,WQ",samplewater,24
+Anthropogenic (synthetic) Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",23
+Wool Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >500 um",23
+Azobenzene,"CIWQS,WQ",samplewater,23
+Unknown Potentially Rubber Fragment,WQ,"sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",23
+Inorganic Natural Material Foam,WQ,"samplewater, particulate, > 212 um,samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",22
+"Methylphenol, 3-",WQ,samplewater,22
+Metabolite B,WQ,samplewater,22
+Human Norovirus GII,WQ,samplewater,22
+Polystyrene Sphere,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",22
+Anthropogenic (unknown base) Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",21
+Silicon,"WQ,WQX",samplewater,21
+TPH as Gasoline C6-C12,WQ,samplewater,21
+Polyethylene terephthalate fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",21
+Tritium,CIWQS,,20
+Simetryn,WQ,samplewater,20
+Secbumeton,WQ,samplewater,20
+Strontium-90,CIWQS,,20
+PCB 156/157 (TEQ ND=0),WQ,"samplewater,sediment",20
+PCB 156/157 (TEQ ND=DL),WQ,"samplewater,sediment",20
+PCB 156/157 (TEQ ND=1/2 DL),WQ,"samplewater,sediment",20
+Anthropogenic (unknown base) fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",20
+Gallium,WQX,samplewater,19
+"Bacteroidales, Human (BacH)",WQ,samplewater,19
+Zirconium,WQX,samplewater,19
+PCB 040/41,WQ,sediment,19
+PCB 044/47,WQ,sediment,19
+PCB 044/65,WQ,sediment,19
+PCB 059/62,WQ,sediment,19
+PCB 059/75,WQ,sediment,19
+PCB 070/74,WQ,sediment,19
+PCB 070/76,WQ,sediment,19
+PCB 086/87,WQ,sediment,19
+PCB 087/97,WQ,sediment,19
+PCB 093/95,WQ,sediment,19
+PCB 095/98,WQ,sediment,19
+PCB 085/117,WQ,sediment,19
+PCB 087/108,WQ,sediment,19
+PCB 087/119,WQ,sediment,19
+PCB 087/125,WQ,sediment,19
+PCB 095/100,WQ,sediment,19
+PCB 095/102,WQ,sediment,19
+PCB 101/113,WQ,sediment,19
+PCB 129/138,WQ,sediment,19
+PCB 138/163,WQ,sediment,19
+PCB 151/154,WQ,sediment,19
+Acrylic Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",19
+"Fluorophenol, 2-","CIWQS,WQ",samplewater,19
+Unknown Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",19
+Cellulose Acetate Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",19
+Niobium,WQX,samplewater,19
+Cocaine,WQX,samplewater,18
+"Dichloro-pyridine-2-carboxylic Acid, 3,6-",WQ,samplewater,18
+Tylosin,WQX,samplewater,18
+Warfarin,WQX,samplewater,18
+Diltiazem,WQX,samplewater,18
+Glyburide,WQX,samplewater,18
+Metformin,WQX,samplewater,18
+Oxycodone,WQX,samplewater,18
+Valsartan,WQX,samplewater,18
+Verapamil,WQX,samplewater,18
+Diphenamid,"CIWQS,WQ",samplewater,18
+Furosemide,WQX,samplewater,18
+Metoprolol,WQX,samplewater,18
+Sertraline,WQX,samplewater,18
+Hydrocodone,WQX,samplewater,18
+Propranolol,WQX,samplewater,18
+Simvastatin,WQX,samplewater,18
+Triamterene,WQX,samplewater,18
+Norverapamil,WQX,samplewater,18
+Amitriptyline,WQX,samplewater,18
+Sulfamethazine,WQX,samplewater,18
+Hydrochlorothiazide,WQX,samplewater,18
+Polystyrene fragment,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 um",18
+Fluticasone Propionate,WQX,samplewater,18
+Codeine,WQX,samplewater,18
+Acifluorfen,"CIWQS,WQ,WQX",samplewater,17
+"OCDF, 1,2,3,4,6,7,8,9- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"TCDD, 2,3,7,8- (TEQ ND=0)",WQ,samplewater,17
+"TCDF, 2,3,7,8- (TEQ ND=0)",WQ,samplewater,17
+"Dichlorobenzoic Acid, 3,5-","CIWQS,WQ,WQX",samplewater,17
+"PECDD, 1,2,3,7,8- (TEQ ND=0)",WQ,samplewater,17
+"PECDF, 1,2,3,7,8- (TEQ ND=0)",WQ,samplewater,17
+"PECDF, 2,3,4,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HXCDD, 1,2,3,4,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HXCDD, 1,2,3,6,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HXCDD, 1,2,3,7,8,9- (TEQ ND=0)",WQ,samplewater,17
+"HXCDF, 1,2,3,4,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HXCDF, 1,2,3,6,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HXCDF, 1,2,3,7,8,9- (TEQ ND=0)",WQ,samplewater,17
+"HXCDF, 2,3,4,6,7,8- (TEQ ND=0)",WQ,samplewater,17
+"TCDD, 2,3,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"TCDF, 2,3,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HPCDD, 1,2,3,4,6,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HPCDF, 1,2,3,4,6,7,8- (TEQ ND=0)",WQ,samplewater,17
+"HPCDF, 1,2,3,4,7,8,9- (TEQ ND=0)",WQ,samplewater,17
+Anthropogenic (unknown base) Foam,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",17
+"OCDD, 1,2,3,4,6,7,8,9- (TEQ ND=0)",WQ,samplewater,17
+"OCDF, 1,2,3,4,6,7,8,9- (TEQ ND=0)",WQ,samplewater,17
+"PECDD, 1,2,3,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"PECDF, 1,2,3,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"PECDF, 2,3,4,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDD, 1,2,3,4,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDD, 1,2,3,6,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDD, 1,2,3,7,8,9- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDF, 1,2,3,4,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDF, 1,2,3,6,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDF, 1,2,3,7,8,9- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HXCDF, 2,3,4,6,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HPCDD, 1,2,3,4,6,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HPCDF, 1,2,3,4,6,7,8- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"HPCDF, 1,2,3,4,7,8,9- (TEQ ND=1/2 DL)",WQ,samplewater,17
+"OCDD, 1,2,3,4,6,7,8,9- (TEQ ND=1/2 DL)",WQ,samplewater,17
+Diphenhydramine,WQX,samplewater,17
+Desmetryn,WQ,samplewater,16
+Dipropetryn,WQ,samplewater,16
+Dichlorotrifluoroethane,WQ,samplewater,16
+Tributylphosphate,"WQ,WQX",samplewater,16
+"Dimethylfluorene, 1,7-","Tissue,WQ","sediment,tissue",16
+Nylon Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 um",16
+TPH as Diesel C10-C25,WQ,samplewater,15
+Total Pyrethrins,WQX,samplewater,15
+Unknown Foam,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",14
+Dibromoaldrin,WQ,sediment,13
+"Dibromo-2,3-dichlorophenyl-hexachloro-norbornene, 4,6-",WQ,sediment,13
+Dechlorane 601,WQ,sediment,13
+Dechlorane 603,WQ,sediment,13
+Dechlorane 604,WQ,sediment,13
+Salmonella-invA,WQ,samplewater,13
+Dibutyl phosphate,WQ,sediment,13
+Diethyl Phosphate,WQ,sediment,13
+Pentabromobenzene,WQ,sediment,13
+Dimethyl phosphate,WQ,sediment,13
+Diphenyl phosphate,WQ,sediment,13
+Marbon CNB 23010-1,WQ,sediment,13
+Tripropyl Phosphate,WQ,sediment,13
+"Bromofluorobenzene, 4-","CIWQS,WQX",samplewater,13
+Pentabromoethylbenzene,WQ,sediment,13
+Decabromodiphenylethane,WQ,sediment,13
+Di(2-ethylhexyl) phosphate,WQ,sediment,13
+Tetrabromo-o-chlorotoluene,WQ,sediment,13
+Dechlorane Plus Mono Adduct,WQ,sediment,13
+"Nitrosomethylethylamine, N-",WQ,samplewater,13
+Hexachloro(phenyl)norbornene,WQ,sediment,13
+Carbonate Alkalinity as CaCO3,WQ,samplewater,13
+Hydroxide Alkalinity as CaCO3,WQ,samplewater,13
+Bicarbonate Alkalinity as CaCO3,WQ,samplewater,13
+Di-dechlorinated Dechlorane Plus,WQ,sediment,13
+Ethylene bis(tetrabromophthalimide),WQ,sediment,13
+"Bis(1,3-dichloro-2-propyl) phosphate",WQ,sediment,13
+Dibromophenyl-hexachloro-norbornene ,WQ,sediment,13
+Monobromophenyl-hexachloro-norbornene-1,WQ,sediment,13
+Monobromophenyl-hexachloro-norbornene-2,WQ,sediment,13
+Monobromophenyl-hexachloro-norbornene-3,WQ,sediment,13
+Tetrachlorophenyl-hexachloro-norbornene,WQ,sediment,13
+Hexachlorocyclopentadienyldibromocyclooctane,WQ,sediment,13
+Pentabromobenzyl Bromide-1/Pentabromotoluene,WQ,sediment,13
+Chlordene Plus,WQ,sediment,13
+Terphenyl-d14,WQ,samplewater,12
+Nylon Fragment,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >1 mm,sediment, >125 to 355 um,sediment, >500 um",12
+Polyethylene Fiber,WQ,"samplewater, particulate, >125 to 355 um",12
+Pentabromobenzyl Bromide-2/Polybrominated Biphenyl 101,WQ,sediment,12
+"Stearates, Lubricants, Waxes Fragment",WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um",12
+"2-ethyl-1-hexyl-2,3,4,5-tetrabromobenzoate",WQ,sediment,12
+Ethylene/vinyl Acetate Co-polymer Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um",12
+Organic Natural Material Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um",12
+Total DDTs,"WQ,WQX","samplewater,sediment",11
+Perfluorooctane Sulfonamido Acetic Acid,WQ,sediment,11
+Unknown Film,WQ,"sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",11
+Unknown Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 um",11
+Triethyl Phosphate,WQ,sediment,11
+Triphenyl Phosphate,"CIWQS,WQ,WQX","samplewater,sediment",11
+Tetraethyl Pyrophosphate,"WQ,WQX",samplewater,11
+Perfluorodecylphosphonate,WQ,sediment,11
+Perfluorohexylphosphonate,WQ,sediment,11
+Perfluorooctylphosphonate,WQ,sediment,11
+"Trimethylphenanthrene, 1,2,6-","Tissue,WQ","sediment,tissue",11
+Ultraviolet Absorption (254nm),WQ,samplewater,11
+Anthropogenic (synthetic) fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",11
+"Perfluorodecylphosphate, 1H,1H,2H,2H-",WQ,sediment,11
+"Perfluorooctylphosphate, 1H,1H,2H,2H-",WQ,sediment,11
+Polyethylene Co-acrylic Acid Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um",11
+Perfluorohexylperfluorooctylphosphinate,WQ,sediment,11
+Iodomethane,"CIWQS,WQ",samplewater,11
+Dry Weight,"Tissue,WQ","sediment,tissue",10
+Acrylic Film,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",10
+Paint fragment,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um",10
+"Color, Apparent",WQX,samplewater,10
+"Hydroxy-Imidacloprid, 5-",WQ,samplewater,10
+Pentabromobenzyl acrylate,WQ,sediment,10
+"Dibromo-4-(1,2-dibromoethyl)cyclohexane, gamma-1,2-",WQ,sediment,10
+"Tetrachlorophenol, 2,3,5,6-",CIWQS,,10
+"Hexabromocyclododecane, beta-",WQ,sediment,10
+Total TEQ (WHO 2005; ND=1/2DL),WQ,samplewater,10
+Metolachlor ethanesulfonic acid,WQX,samplewater,10
+Monomethyl tetrachloroterephthalate,WQX,samplewater,10
+Polyethylene/Polypropylene Co-polymer Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",10
+Total TEQ (WHO 2005; ND=0),WQ,samplewater,10
+Odor,"Field,WQ",samplewater,9
+Kepone,WQ,"samplewater,sediment",9
+Tedion,WQ,samplewater,9
+Radium-226,"CIWQS,WQX",samplewater,9
+Radium-228,"CIWQS,WQX",samplewater,9
+Enterovirus ,WQ,samplewater,9
+"1,2-bis(2,4,6- tribromophenoxy)ethane",WQ,sediment,9
+Polystyrene Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",9
+Polyethylene Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",9
+Imidacloprid olefin,WQ,samplewater,9
+Tetrabutyltin as Sn,WQ,sediment,9
+Polyester Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",9
+Imidacloprid guanidine olefin,WQ,samplewater,9
+E. Coli O157:H7,WQ,samplewater,9
+Mancozeb,WQ,samplewater,8
+PBDE 197,WQ,samplewater,8
+Transparency,Field,samplewater,8
+Vinyl Acetate,"WQ,WQX",samplewater,8
+Algae-floating Mats,WQX,samplewater,8
+Polyurethane fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um,sediment, >500 um",8
+"Dibromo-4-(1,2-dibromoethyl)cyclohexane, beta-1,2-",WQ,sediment,8
+Dechlorane 604 Component B,WQ,sediment,8
+"Dimethyl-2-nitrobenzene, 1,3-","CIWQS,WQ,WQX",samplewater,8
+Not Characterized Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",8
+Atrazine-Desisopropyl-2-Hydroxy,WQ,samplewater,8
+Tris(2-isopropylphenyl)phosphate,WQ,sediment,8
+Polyethylene Co-acrylic Acid Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um",8
+"Dimethylnaphthalene, 1,2-","Tissue,WQ","sediment,tissue",8
+Algae,WQX,samplewater,7
+"Dibromo-4-(1,2-dibromoethyl)cyclohexane, alpha-1,2-",WQ,sediment,7
+Polyurethane foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um",7
+Polypropylene Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",7
+Cellulosic Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",7
+Polypropylene Sphere,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >355 to 500 um,samplewater, particulate, >500 to 1000 um",7
+"Dichloropropene, 1,3-",WQ,sediment,7
+TPH as Diesel C10-C23,WQ,samplewater,7
+Terphenyl-d14(Surrogate),CIWQS,,7
+"Dichloroethylene, Total 1,2-",WQ,samplewater,7
+Organic Natural Material Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,sediment, >1 mm",7
+Anthropogenic (synthetic) Film,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",7
+Polyethylene Terephthalate Film,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 to 1000 um",7
+Total Dioxins-Furans (TEQ ND=0),WQ,samplewater,7
+Mono-dechlorinated Dechlorane Plus,WQ,sediment,7
+Total Dioxins-Furans (TEQ ND=1/2 DL),WQ,samplewater,7
+Unknown Sphere,WQ,"sediment, >125 to 355 um,sediment, >355 to 500 um",7
+TRPH,WQ,"samplewater,sediment",6
+Paint Fiber,WQ,"samplewater, particulate, >125 to 355 um",6
+Acrylic Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um",6
+Ash Free Dry Mass,WQ,samplewater,6
+"Dichloroethane-d4, 1,2-(Surrogate)",CIWQS,,6
+Polyurethane Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,sediment, >1 mm,sediment, >125 to 355 um",6
+Organic Natural Material Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >355 to 500 um",6
+"Bacteroidales, Porcine (Pig2Bac)",WQ,samplewater,6
+"Stearates, Lubricants, Waxes Foam",WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um",6
+Polystyrene Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",6
+Cerium,WQ,samplewater,5
+Anthropogenic (cellulosic) Film,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um",5
+Neodymium,WQ,samplewater,5
+Ytterbium,WQ,samplewater,5
+"DCBP(p,p')",WQ,sediment,5
+Nylon Film,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um,sediment, >125 to 355 um,sediment, >355 to 500 um",5
+Paint Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",5
+Aminopyralid,WQ,samplewater,5
+Total Di-PCB,WQ,samplewater,5
+Total Tri-PCB,WQ,samplewater,5
+PCB 093/95/100,WQ,samplewater,5
+Total Hexa-PCB,WQ,samplewater,5
+Total Mono-PCB,WQ,samplewater,5
+Total Nona-PCB,WQ,samplewater,5
+Total Octa-PCB,WQ,samplewater,5
+Rubber fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",5
+Total Hepta-PCB,WQ,samplewater,5
+Total Penta-PCB,WQ,samplewater,5
+Total Tetra-PCB,WQ,samplewater,5
+Dibutyltin as Sn,WQ,sediment,5
+Monobutyltin as Sn,WQ,sediment,5
+Polyurethane fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um",5
+Paraquat Dichloride,WQ,samplewater,5
+Phenol-d6(Surrogate),CIWQS,,5
+Toluene-d8(Surrogate),CIWQS,,5
+Cellulose Acetate Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >500 um",5
+"Dimethylphenanthrene, 1,7-","Tissue,WQ","sediment,tissue",5
+Nitrobenzene-d5(Surrogate),CIWQS,,5
+2-Ethylhexyl-diphenyl phosphate,WQ,sediment,5
+Holmium,WQ,samplewater,5
+Chlorate,WQ,samplewater,4
+Ethylene/vinyl Acetate Co-polymer Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",4
+Dichrotophos,WQ,samplewater,4
+Formaldehyde,CIWQS,,4
+Marbon CNB 23010-2,WQ,sediment,4
+Polycarbonate Fragment,WQ,"samplewater, particulate, > 212 um,samplewater, particulate, >1000 um,sediment, >125 to 355 um,sediment, >500 um",4
+Polyvinyl Chloride Fiber,WQ,"sediment, >125 to 355 um,sediment, >355 to 500 um",4
+TPH as Motor Oil C14-C44,WQ,sediment,4
+Tetraethyl pyrophosphate,CIWQS,,4
+Dry Weight Standard Error,Tissue,tissue,4
+Esfenvalerate/Fenvalerate-1,WQ,sediment,4
+Esfenvalerate/Fenvalerate-2,WQ,sediment,4
+Polyvinyl Chloride Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",4
+"Hexabromocyclododecane, alpha-",WQ,sediment,4
+"Hexabromocyclododecane, gamma-",WQ,sediment,4
+"Stearates, Lubricants, Waxes Film",WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",4
+Polystyrene/Acrylic Co-polymer Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",4
+Chlorite,WQ,samplewater,4
+Wool Foam,WQ,"samplewater, particulate, >125 to 355 um",3
+Acrylonitrile Butadiene Styrene Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",3
+PCB 131/133,WQ,samplewater,3
+Cellulosic Film,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",3
+Growth (weight),Tissue,tissue,3
+"Methylanthracene, 2-","Tissue,WQ","sediment,tissue",3
+Growth Standard Error,Tissue,tissue,3
+"Hydroxy-ibuprofen, 2-",WQ,samplewater,3
+"Hydroxycarbofuran, 3-",CIWQS,,3
+TPH as Diesel C13-C14,WQ,sediment,3
+TPH as Diesel C15-C16,WQ,sediment,3
+TPH as Diesel C17-C18,WQ,sediment,3
+TPH as Diesel C19-C20,WQ,sediment,3
+TPH as Diesel C21-C22,WQ,sediment,3
+TPH as Diesel C23-C24,WQ,sediment,3
+TPH as Diesel C25-C28,WQ,sediment,3
+Polyvinyl Alcohol Film,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um,sediment, >355 to 500 um",3
+TPH as Gasoline C5-C12,WQ,samplewater,3
+TPH as Gasoline C9-C10,WQ,sediment,3
+Polyvinyl Alcohol Fiber,WQ,"sediment, >125 to 355 um,sediment, >355 to 500 um,sediment, >500 um",3
+Polyvinyl Chloride Foam,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",3
+Styrene Co-polymer Foam,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um",3
+TPH as Gasoline C11-C12,WQ,sediment,3
+TPH as Motor Oil C18-C36,WQ,samplewater,3
+Styrene Co-polymer Fragment,WQ,"samplewater, particulate, >125 to 355 um",3
+Organic Natural Material Foam,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",3
+Anthropogenic (synthetic) Foam,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",3
+Organic Natural Material Sphere,WQ,"samplewater, particulate, >125 to 355 um",3
+Anthropogenic (cellulosic) Fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",3
+Bis(2-ethly-1-hexyl)tetrabromophthalate,WQ,sediment,3
+"Cymene, p-",WQX,samplewater,3
+Survival,Tissue,tissue,2
+Polyethylene/Polypropylene Co-polymer Sphere,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >500 to 1000 um",2
+Paint Film,WQ,"samplewater, particulate, >125 to 355 um",2
+Rubber Foam,WQ,"samplewater, particulate, >125 to 355 um",2
+Wool Fragment,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",2
+Dechlorane 602,WQ,sediment,2
+Glass fragment,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >125 to 355 um",2
+Asphalt Fragment,WQ,"samplewater, particulate, >125 to 355 um",2
+"Parathion, Total",WQ,samplewater,2
+Cotton Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",2
+Dibromofluoromethane,"CIWQS,WQX",samplewater,2
+"Dechlorane Plus, syn-",WQ,sediment,2
+Triisobutyl Phosphate,WQ,sediment,2
+Cellulose Acetate Film,WQ,"samplewater, particulate, >500 to 1000 um,sediment, >355 to 500 um",2
+"Dimethylchrysene, 5,9-","Tissue,WQ","sediment,tissue",2
+TPH as Gasoline C3-C13,WQ,samplewater,2
+"Tribromobenzene, 1,3,5-",WQ,sediment,2
+Benzo(b/j/k)fluoranthene,"Tissue,WQ","samplewater,tissue",2
+"Methylbenzo(a)pyrene, 7-","Tissue,WQ","sediment,tissue",2
+"Chlorthal-Dimethyl, Total",WQX,samplewater,2
+"Dimethylphenanthrene, 1,8-","Tissue,WQ","sediment,tissue",2
+Polyvinyl Alcohol Fragment,WQ,"sediment, >125 to 355 um",2
+"Methyldibenzothiophenes, 2/3-",WQ,sediment,2
+Anthropogenic (cellulosic) Foam,WQ,"samplewater, particulate, >125 to 355 um",2
+Polyethylene Terephthalate Foam,WQ,"samplewater, particulate, >125 to 355 um",2
+Inorganic Natural Material Fiber,WQ,"samplewater, particulate, >125 to 355 um,sediment, >125 to 355 um",2
+"Tris(2,3-dibromopropyl) phosphate",WQ,sediment,2
+Anthropogenic (protein base) Fiber,WQ,"samplewater, particulate, >125 to 355 um",2
+"Dichlorobenzene-d4, 1,4-(Surrogate)",CIWQS,,2
+Polyethylene Co-acrylic Acid Sphere,WQ,"samplewater, particulate, >1000 um,samplewater, particulate, >500 to 1000 um",2
+Ethylene/vinyl Acetate Co-polymer Film,WQ,"samplewater, particulate, >1000 um,sediment, >125 to 355 um",2
+Anthropogenic (cellulosic) Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",2
+Polyethylene/Polypropylene Co-polymer Film,WQ,"samplewater, particulate, >125 to 355 um,samplewater, particulate, >500 to 1000 um",2
+Wool Film,WQ,"samplewater, particulate, >125 to 355 um",2
+TPH as Heavy Fuel Oils C22-C36,WQ,samplewater,1
+Inorganic Natural Material Film,WQ,"samplewater, particulate, >355 to 500 um",1
+Unknown Potentially Rubber Foam,WQ,"samplewater, particulate, >125 to 355 um",1
+Anthropogenic (synthetic) Sphere,WQ,"samplewater, particulate, >125 to 355 um",1
+Anthropogenic (cellulosic) Sphere,WQ,"samplewater, particulate, >125 to 355 um",1
+Inorganic Natural Material Sphere,WQ,"sediment, >125 to 355 um",1
+Polyethylene Co-acrylic Acid Foam,WQ,"samplewater, particulate, >355 to 500 um",1
+TPH as Motor Oil / Diesel C13-C44,WQ,sediment,1
+Anthropogenic (unknown base) Sphere,WQ,"samplewater, particulate, >125 to 355 um",1
+Polystyrene/Acrylic Co-polymer Film,WQ,"samplewater, particulate, >1000 um",1
+Acrylonitrile Butadiene Styrene Film,WQ,"sediment, >125 to 355 um",1
+"Benzofluoranthenes/Benzopyrenes, C1-",Tissue,tissue,1
+"Benzofluoranthenes/Benzopyrenes, C2-",Tissue,tissue,1
+Polystyrene/Acrylic Co-polymer Fiber,WQ,"samplewater, particulate, >125 to 355 um",1
+Polytetrafluoroethylene Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",1
+Acrylonitrile Butadiene Styrene Fiber,WQ,"samplewater, particulate, >125 to 355 um",1
+Polystyrene/Acrylic Co-polymer Sphere,WQ,"sediment, >125 to 355 um",1
+Polystyrene/Acrylic Co-polymer Fragment,WQ,"samplewater, particulate, >125 to 355 um",1
+Ethylene/vinyl Acetate Co-polymer Sphere,WQ,"samplewater, particulate, >1000 um",1
+Polyethylene/Polypropylene Co-polymer Fiber,WQ,"samplewater, particulate, >125 to 355 um",1
+Rubber Film,WQ,"samplewater, particulate, >1000 um",1
+Glass sphere,WQ,"samplewater, particulate, >125 to 355 um",1
+Nylon Sphere,WQ,"samplewater, particulate, >125 to 355 um",1
+Rubber Sphere,WQ,"samplewater, particulate, >125 to 355 um",1
+Silicone Film,WQ,"samplewater, particulate, >125 to 355 um",1
+Hexabromobenzene,WQ,sediment,1
+"Decane, 2-phenyl-",WQ,sediment,1
+"Decane, 3-phenyl-",WQ,sediment,1
+"Decane, 4-phenyl-",WQ,sediment,1
+"Decane, 5-phenyl-",WQ,sediment,1
+Silicone Fragment,WQ,"samplewater, particulate, >500 to 1000 um",1
+Wool Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",1
+"Chlorophyll, Total",WQX,samplewater,1
+"Methylchrysene, 1-",Tissue,tissue,1
+"Methylfluorene, 2-",WQ,sediment,1
+TPH as Gasoline C6,WQ,sediment,1
+TPH as Gasoline C7,WQ,sediment,1
+TPH as Gasoline C8,WQ,sediment,1
+TPH as Oil C29-C44,WQ,samplewater,1
+"Dodecane, 2-phenyl-",WQ,sediment,1
+"Dodecane, 3-phenyl-",WQ,sediment,1
+"Dodecane, 4-phenyl-",WQ,sediment,1
+"Dodecane, 5-phenyl-",WQ,sediment,1
+"Dodecane, 6-phenyl-",WQ,sediment,1
+"Undecane, 2-phenyl-",WQ,sediment,1
+"Undecane, 3-phenyl-",WQ,sediment,1
+"Undecane, 4-phenyl-",WQ,sediment,1
+"Undecane, 5-phenyl-",WQ,sediment,1
+"Undecane, 6-phenyl-",WQ,sediment,1
+"Tridecane, 2-phenyl-",WQ,sediment,1
+"Tridecane, 3-phenyl-",WQ,sediment,1
+"Tridecane, 4-phenyl-",WQ,sediment,1
+"Tridecane, 5-phenyl-",WQ,sediment,1
+TPH as Diesel C10-C22,WQ,samplewater,1
+TPH as Diesel C13-C22,WQ,sediment,1
+TPH as Gasoline C4-C5,WQ,sediment,1
+"Dibenzothiophenes, C4-",WQ,sediment,1
+"Methylphenanthrene, 3-",WQ,sediment,1
+Polycaprolactone Fiber,WQ,"samplewater, particulate, >125 to 355 um",1
+Polyethylenimine Fiber,WQ,"sediment, >1 mm",1
+Polyvinyl Alcohol Foam,WQ,"sediment, >125 to 355 um",1
+"Tetradecane, 2-phenyl-",WQ,sediment,1
+"Tetradecane, 3-phenyl-",WQ,sediment,1
+"Tetradecane, 4-phenyl-",WQ,sediment,1
+"Tetradecane, 5-phenyl-",WQ,sediment,1
+"Tetradecane, 6-phenyl-",WQ,sediment,1
+"Tetradecane, 7-phenyl-",WQ,sediment,1
+"Tridecane, 6/7-phenyl-",WQ,sediment,1
+Perylene-d12(Surrogate),CIWQS,,1
+Polyvinyl Butyral Fiber,WQ,"sediment, >355 to 500 um",1
+Polyvinyl Chloride Film,WQ,"samplewater, particulate, >125 to 355 um",1
+TPH as Residual C29-C32,WQ,sediment,1
+TPH as Residual C33-C36,WQ,sediment,1
+TPH as Residual C37-C40,WQ,sediment,1
+TPH as Residual C41-C44,WQ,sediment,1
+Cellulose Acetate Sphere,WQ,"samplewater, particulate, >500 to 1000 um",1
+Polystyrene Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",1
+TPH as Motor Oil C23-C44,WQ,sediment,1
+Polyethylene Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",1
+Deaminated metribuzin (DA),WQX,samplewater,1
+"Dimethylphenanthrene, 2,6-",WQ,sediment,1
+Polypropylene Fiber Bundle,WQ,"samplewater, particulate, >125 to 355 um",1
+Polyvinyl Acetate Fragment,WQ,"samplewater, particulate, >125 to 355 um",1
+"Tetrachlorophenol, 2,3,4,5-",CIWQS,,1
