@@ -2,7 +2,7 @@
 
 [word](comments.docx)
 
-[web](comments.html)
+[html](examples/identify-benchmarks.html)
 
 [text](comments.txt)
 
